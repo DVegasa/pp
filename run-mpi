@@ -1,0 +1,2 @@
+mpic++ $1 -o mpi.out || exit 1
+mpiexec -n 4 ./mpi.out
